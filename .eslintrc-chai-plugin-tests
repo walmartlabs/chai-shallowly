@@ -1,0 +1,5 @@
+---
+extends:
+  - "defaults/configurations/walmart/es6-react-test"
+rules:
+  "no-unused-expressions": 0
