@@ -1,0 +1,7 @@
+---
+extends:
+  - "defaults/configurations/walmart/es5-test"
+  - "defaults/configurations/walmart/es5-browser"
+rules:
+  "max-statements": 0
+  "no-unused-expressions": 0
