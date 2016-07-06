@@ -91,7 +91,7 @@ var plugin = function (chai, utils, enzyme) {
     var component = utils.flag(this, SHALLOW_FLAG);
     if (component) {
       this.assert(
-        component.contains(contained),
+        component.containsMatchingElement(contained),
         "expected " + component.html() + " to contain " + contained,
         "expected #{this} to not be #{exp}"
       );
