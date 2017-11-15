@@ -2,8 +2,12 @@
 import React from "react";
 import Outer from "../../../src/test/components/outer";
 import Inner from "../../../src/test/components/inner";
-import {shallow} from "enzyme";
+import { shallow } from "enzyme";
 import chai from "chai";
+import Enzyme from "enzyme";
+import Adapter from "enzyme-adapter-react-16";
+
+Enzyme.configure({ adapter: new Adapter() });
 
 const expect = chai.expect;
 const chaiShallowly = require("../../../src/index");
