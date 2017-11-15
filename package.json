@@ -1,6 +1,6 @@
 {
   "name": "chai-shallowly",
-  "version": "0.9.10",
+  "version": "1.0.0",
   "description": "A Chai assertion frame work for Enzyme",
   "main": "src/index.js",
   "repository": {
